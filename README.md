@@ -1,5 +1,20 @@
 # Pixels Camp Activities, Lisbon 2016
 
+**If you're a participant to the PixelsCamp 2016 hackathon, 
+take a look to the [Cisco API Challenge](https://github.com/ObjectIsAdvantag/hackathon-resources/tree/master/pixelscamp-lisbon) 
+and pass by our booth to get a great discussion around APIs and innovation at Cisco.**
+
+> To give a try to the Pixels Camp Voice Machine
+>
+> call **+351-308-801-061**
+>
+> Note: check how to [add Voice interactions in minutes](https://github.com/ObjectIsAdvantag/hackathon-resources/tree/master/pixelscamp-lisbon#tropo-starter-guide)
+
+
+## What's going on here ?
+
+_Well, Cisco APIs at work: a REST API, a Tropo IVR and a Cisco Spark Bot playing all together_
+
 This code takes a json event file and exposes it as a REST API with 3 ressources :
 - [GET /](https://pixelscamp.herokuapp.com/) : returns all events, sorted by begin date
 - [GET /next](https://pixelscamp.herokuapp.com/next?limit=10): shows upcoming activities
@@ -21,21 +36,24 @@ Launch your favorite CiscoSpark client (Web, iOS, android, windows or mac)
 - check if the session you're attending has begun: /next, /now
 
 
-# Architecture
+## Architecture
 
-If you want to dig into the code, this project is built on top of SailsJS for routing, and main logic is implemented by the [ActivityController](api/controllers/ActivityController.js).
+If you want to dig into the code:
+- this project is leveraging SailsJS for the REST API aspects, the [ActivityController](api/controllers/ActivityController.js) holds main logic,
+- the Voice Machine script custom logic starts here for [Voice interactions](tropo-IVR.js#L354) and there for [SMS interactions](tropo-IVR.js#L318).  
+app.js
 
 This API is deployed on [Heroku](https://pixelscamp.herokuapp.com/).
 
 
-# Want to learn more
+## Want to learn more
 
 Check these webinars from Cisco Live Vegas 2016:
 - DEVNET2002
 - DEVNET3002
 
 
-# License
+## License
 
 MIT, see license file.
 
