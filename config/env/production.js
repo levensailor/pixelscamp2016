@@ -17,10 +17,6 @@ module.exports = {
    * environment (see config/connections.js and config/models.js )           *
    ***************************************************************************/
 
-  models: {
-    connection: 'clevercloud',
-    migrate: 'safe'
-  }
 
   /***************************************************************************
    * Set the port in the production environment to 80                        *
