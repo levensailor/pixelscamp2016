@@ -2,18 +2,18 @@
 
 **If you're a participant to the PixelsCamp 2016 hackathon, 
 take a look to the [Cisco API Challenge](https://github.com/ObjectIsAdvantag/hackathon-resources/tree/master/pixelscamp-lisbon) 
-and pass by our booth to get a great discussion around APIs and innovation at Cisco.**
+pass by the Cisco booth to discuss about APIs and innovation at Cisco,
+and sign up at [DevNet - Cisco Developer Program](https://developer.cisco.com).**
 
 > To give a try to the Pixels Camp Voice Machine
 >
-> call **+351-308-801-061**
->
-> Note: check how to [add Voice interactions in minutes](https://github.com/ObjectIsAdvantag/hackathon-resources/tree/master/pixelscamp-lisbon#tropo-starter-guide)
+>    call **+351-308-801-061** 
 
 
 ## What's going on here ?
 
-_Well, Cisco APIs at work: a REST API, a Tropo IVR and a Cisco Spark Bot playing all together_
+_Well, Cisco APIs at work: a REST API, a Tropo IVR and a [Cisco Spark Bot](https://github.com/ObjectIsAdvantag/sparkbot-webhook-samples/blob/master/examples/devnet/bot.js) playing all together_
+
 
 This code takes a json event file and exposes it as a REST API with 3 ressources :
 - [GET /](https://pixelscamp.herokuapp.com/) : returns all events, sorted by begin date
@@ -53,12 +53,6 @@ Check these webinars from Cisco Live Vegas 2016:
 - DEVNET3002
 
 
-## License
-
-MIT, see license file.
+## MIT License
 
 Feel free to use, reuse, extend, and contribute
-
-
-
-}
