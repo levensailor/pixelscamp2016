@@ -68,7 +68,7 @@ source.forEach(function (item, index) {
 var sorted = events.sort(function (a, b) {
     // Turn your strings into dates, and then subtract them
     // to get a value that is either negative, positive, or zero.
-    return a.startDate - b.startDate;
+    return a.beginDate - b.beginDate;
 });
 
 
